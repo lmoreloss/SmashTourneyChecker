@@ -8,7 +8,7 @@ var hay1v1 = false;
 var onevone = document.getElementById("ov1");
 var ffa = document.getElementById("FFA");
 var bg = document.getElementById("imgBackground");
-for (var i = 0; i < 100000; i++) {
+for (var i = 0; i < 1000; i++) {
     if (fechaActual.getTime() >= fechaPasada.getTime() && fechaActual.getTime() < fechaSig.getTime()) {
         if (hay1v1 == false) {
             console.log("Hay FFA");
